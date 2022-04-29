@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>박세은의 홈페이지</title>
+        <link rel="stylesheet" href="test.css">
+    </head>
+    <body>
+        <header>
+            <div class="homepage">
+              <h1>박세은의 홈페이지</h1>
+            </div>
+              <h2>이 곳은 저를 소개하는 페이지입니다.</h2>
+        </header>
+
+        <nav>
+            <h2>소개 순서</h2>
+            <ol>
+                <li>일기장(form실습)</li>
+                <li>
+                    소속(링크 및 이미지 실습)
+                    <ul>
+                        <li>성공회대학교</li>
+                        <li>IT융합자율학부</li>
+                    </ul>
+                </li>
+                <li>이력(테이블 실습)</li>
+                <li>좋아하는 것(텍스트 태그 소개)</li>
+            </ol>
+        </nav>
+
+        <section>
+            <article>
+                <form action="전송받을 대상">
+                    아이디 : <input type = "text" name = "mypw">
+                    비밀번호 : <input type = "passsword" name = "mypw">
+                </form>
+                <form action = "일기장">
+                    <h2>일기장</h2>
+                    제목 : <input type = "test" name = "diaryTitle">
+                    <select>
+                        <option value="goodDay"> 좋은날 </option>
+                        <option value="sosoDay"> 그저그런날 </option>
+                        <option value="sadDay"> 슬픈날 </option>
+                    </select>
+                    <br>
+                    <h3>내용 : </h3>
+                    <textarea cols="30" rows="20"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </article>
+        </section>
+        <footer></footer>
+    </body>
+</html>

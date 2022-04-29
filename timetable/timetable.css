@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'HallymMjo-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2204@1.0/HallymMjo-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: 'HallymMjo-Regular';
+}
+
+table{
+    border-collapse: collapse;
+    width: 800px;
+    height: 20px;
+}
+td, tr{
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+    width: 800px;
+    height: 20px;
+}
+.abc{
+    background-color: darkgrey;
+}
+.ch{
+    background-color: rgb(192, 154, 192);
+}
+.eng{
+    background-color: rgb(200, 164, 152);
+}
+.world{
+    background-color: rgb(199, 149, 149);
+}
+.pro{
+    background-color: rgb(162, 211, 162);
+}
+.read{
+    background-color: rgb(165, 207, 207);
+}
+.data{
+    background-color: beige;
+}
+.uni{
+    background-color: rgb(126, 103, 91);
+}

@@ -1,0 +1,17 @@
+.container{
+    width : 200px;
+}
+.header{
+    background-color: slateblue;
+}
+.box1{
+    background-color: rosybrown;
+    float: left;
+}
+.box2{
+    background-color: sandybrown;
+    float: right;
+}
+.margin {
+    margin-top: 10px;
+}

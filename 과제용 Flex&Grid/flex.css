@@ -1,0 +1,12 @@
+.flex-container{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: 330px 330px 330px;
+    gap: 10px;
+    text-align: center;
+}
+
+.style{
+    width : 330px;
+    height : 330px;
+}
